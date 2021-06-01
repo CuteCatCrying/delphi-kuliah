@@ -1,8 +1,8 @@
 object Form1: TForm1
-  Left = 428
-  Top = 196
-  Width = 527
-  Height = 422
+  Left = -35
+  Top = 182
+  Width = 528
+  Height = 420
   Caption = 'Form1'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -176,7 +176,6 @@ object Form1: TForm1
     PageSize = 0
     Position = 100
     TabOrder = 7
-    OnChange = ScrollBarSMaxChange
   end
   object ScrollBarVMax: TScrollBar
     Left = 272
