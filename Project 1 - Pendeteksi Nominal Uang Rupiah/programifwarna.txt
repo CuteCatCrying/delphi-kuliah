@@ -1,0 +1,26 @@
+  if (merah1 = 34667714) and (hijau1 = 29576177) and (biru1 = 26009606) then
+  begin
+  label2.Font.size:=18;
+  label2.Caption:= 'RP. 50.000';
+  end
+
+//  else if (merah1 = 34093452) and (hijau1 = 32670269) and (biru1 = 24944943) then
+//  begin
+//  label2.Font.size:=18;
+//  label2.Caption:= 'RP. 5.000';
+// end
+
+  else if (merah1 = 32211033) and (hijau1 = 32348380) and (biru1 = 26168564) then
+  begin
+  label2.Font.size:=18;
+  label2.Caption:= 'RP. 2.000';
+  end
+
+  else
+  begin
+  label2.Caption:= '';
+  end;
+end;
+  image1.Picture.Assign(garis);
+  garis.Free;
+end;
